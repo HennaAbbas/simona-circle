@@ -28,7 +28,7 @@ module.exports = function (config) {
     browsers: ['Chrome'],
     singleRun: true,
     restartOnFileChange: true,
-    browserNoActivityTimeout: 10000,
+    browserNoActivityTimeout: 60000,
     browsers: ['Chrome']
   });
 };
